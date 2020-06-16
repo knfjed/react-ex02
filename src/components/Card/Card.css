@@ -1,0 +1,56 @@
+.card {
+  position: relative;
+  width: 320pt;
+  height: 567pt;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+}
+
+h1 {
+  position: relative;
+  bottom: 200px;
+  text-align: center;
+  font-size: 14pt;
+  color: white;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320pt;
+  height: 567pt;
+  object-fit: cover;
+  margin: 0;
+}
+
+.following {
+  position: absolute;
+  bottom: 100px;
+  left: 107px;
+}
+
+.comments {
+  position: absolute;
+  bottom: 100px;
+  right: 107px;
+}
+
+.following p {
+  margin: 0;
+}
+
+.comments p {
+  margin: 0;
+}
+
+.number {
+  font-size: 20pt;
+  font-weight: 600;
+}
+
+.reaction {
+  width: 600px;
+  background-color: deeppink;
+  color: white;
+}
